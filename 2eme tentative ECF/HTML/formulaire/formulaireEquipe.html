@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page inscription</title>
+    <link rel="stylesheet" href="../../CSS/index.css">
+</head>
+<body>
+    <header>
+
+        <div class="hautDePage">
+            <h1>Tournoi de la KOGGANG</h1>
+            <form action="" method="" class="formHeader">
+                <input type="text" id="identifiant" name="identifiant" placeholder="identifiant" value="" required><br>
+                <input type="password" id="mdp" name="mdp" placeholder="mot de passe" value="" required>
+                <input type="submit" name="valider" value="valider">
+            </form>
+        </div>
+        <div class="menu">
+            <a href="../index.html">accueil</a>
+            <a href="../equipe.html">présentation d'équipe</a>
+            <a href="../inscription.html">inscription</a>
+            <a href="../historique.html">historique</a>
+            <a href="../sociaux.html">réseaux sociaux</a>
+        </div>
+</header>
+    <main>
+       <form action="" method="" class="formEquipe">
+           <fieldset>
+                <legend>formulaire d'inscription d'équipe</legend>
+                <div class="formNom">
+                    <input type="text" name="nomEquipe" id="nomEquipe" value="" placeholder="entrez votre nom d'équipe" required>
+                    <input type="text" name="nomJoueur1" id="nomJoueur1" value="" placeholder="entrez le nom d'un participant" required>
+                    <input type="text" name="nomJoueur2" id="nomJoueur2" value="" placeholder="entrez le nom d'un participant" required>
+                    <input type="text"  name="nomJoueur3" id="nomJoueur3" value="" placeholder="entrez le nom d'un participant" required>
+                    <input type="text"  name="nomJoueur4" id="nomJoueur4" value="" placeholder="entrez le nom d'un participant" required>
+                    <input type="text"  name="nomCoach" id="nomCoach" value="" placeholder="entrez le nom d'un coach si vous en avez" required>
+                </div>
+               <label for="logoEquipe"> upload votre logo </label>
+               <input type="file" id="logoEquipe" name="logoEquipe" required><br>
+               <textarea name="présentationEquipe" id="présentationEquipe" cols="30" rows="10" required>présenter votre équipe</textarea>
+               <div class="test2">
+                   <div class="ciParticipant">
+                       <label for="ci1"> upload la carte d'identité des participants </label>
+                       <input type="file" id="ci1" name="ci1" required>
+                       <input type="file" id="ci2" name="ci2" required>
+                       <input type="file" id="ci3" name="ci3" required>
+                       <input type="file" id="ci4" name="ci4" required>
+                    </div>
+                </div>
+               <input type="submit" name="submit" id="submit" value="validé">
+            </fieldset>
+       </form>
+    </main>
+    <footer>
+        <div class="icon">
+            <img src="../../css/image/fb.png" alt="">
+            <img src="../../CSS/image/insta.jpg" alt="">
+            <img src="../../CSS/image/twitter.png" alt="">
+        </div>
+    </footer>   
+</body>
+</html>

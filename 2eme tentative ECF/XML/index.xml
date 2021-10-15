@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tournoi>
+    <categorie1>
+        <equipe>
+            <equipe1>
+                    <joueur1>
+                        <cat1>
+                            <note1>
+                                
+                            </note1>
+                        </cat1>
+                        <cat2>
+                            <note2>
+                                
+                            </note2>
+                        </cat2>
+                        <cat3>
+                        <note3>
+                            
+                        </note3>
+                    </cat3>
+                    <cat4>
+                        <note4>
+
+                        </note4>
+                    </cat4>
+                    <cat5>
+                        <note5>
+                            
+                        </note5>
+                    </cat5>
+                </joueur1>
+                <joueur2>
+                    <cat1>
+                        <note1>
+                            
+                        </note1>
+                    </cat1>
+                    <cat2>
+                        <note2>
+                            
+                        </note2>
+                    </cat2>
+                    <cat3>
+                        <note3>
+                            
+                        </note3>
+                    </cat3>
+                    <cat4>
+                        <note4>
+                            
+                        </note4>
+                    </cat4>
+                    <cat5>
+                        <note5>
+                            
+                        </note5>
+                    </cat5>
+                </joueur2>
+                <joueur3>
+                    <cat1>
+                        <note1>
+                            
+                        </note1>
+                    </cat1>
+                    <cat2>
+                        <note2>
+                            
+                        </note2>
+                    </cat2>
+                    <cat3>
+                        <note3>
+                            
+                        </note3>
+                    </cat3>
+                    <cat4>
+                        <note4>
+                            
+                        </note4>
+                    </cat4>
+                    <cat5>
+                        <note5>
+                            
+                        </note5>
+                    </cat5>
+                </joueur3>
+                <joueur4>
+                    <cat1>
+                        <note1>
+                            
+                        </note1>
+                    </cat1>
+                    <cat2>
+                        <note2>
+                            
+                        </note2>
+                    </cat2>
+                    <cat3>
+                        <note3>
+                            
+                        </note3>
+                    </cat3>
+                    <cat4>
+                        <note4>
+                            
+                        </note4>
+                    </cat4>
+                    <cat5>
+                        <note5>
+                            
+                        </note5>
+                    </cat5>
+                </joueur4>
+                <joueur5>
+                    <cat1>
+                        <note1>
+                            
+                        </note1>
+                    </cat1>
+                    <cat2>
+                        <note2>
+                            
+                        </note2>
+                    </cat2>
+                    <cat3>
+                        <note3>
+                            
+                        </note3>
+                    </cat3>
+                    <cat4>
+                        <note4>
+                            
+                        </note4>
+                    </cat4>
+                    <cat5>
+                        <note5>
+                            
+                        </note5>
+                    </cat5>
+                </joueur5>
+            </equipe1>
+            <equipe2>
+                <joueur1>
+                    <cat1>
+                        <note1>
+                            
+                        </note1>
+                    </cat1>
+                    <cat2>
+                        <note2>
+                            
+                        </note2>
+                    </cat2>
+                    <cat3>
+                        <note3>
+                            
+                        </note3>
+                    </cat3>
+                    <cat4>
+                        <note4>
+                            
+                        </note4>
+                    </cat4>
+                    <cat5>
+                        <note5>
+                            
+                        </note5>
+                    </cat5>
+                </joueur1>
+                <joueur2>
+                    <cat1>
+                        <note1>
+                            
+                        </note1>
+                    </cat1>
+                    <cat2>
+                        <note2>
+                            
+                        </note2>
+                    </cat2>
+                    <cat3>
+                        <note3>
+                            
+                        </note3>
+                    </cat3>
+                    <cat4>
+                        <note4>
+                            
+                        </note4>
+                    </cat4>
+                    <cat5>
+                        <note5>
+                            
+                        </note5>
+                    </cat5>
+                </joueur2>
+                <joueur3>
+                    <cat1>
+                        <note1>
+                            
+                        </note1>
+                    </cat1>
+                    <cat2>
+                        <note2>
+                            
+                        </note2>
+                    </cat2>
+                    <cat3>
+                        <note3>
+                            
+                        </note3>
+                    </cat3>
+                    <cat4>
+                        <note4>
+                            
+                        </note4>
+                    </cat4>
+                    <cat5>
+                        <note5>
+                            
+                        </note5>
+                    </cat5>
+                </joueur3>
+                <joueur4>
+                    <cat1>
+                        <note1>
+                            
+                        </note1>
+                    </cat1>
+                    <cat2>
+                        <note2>
+                            
+                        </note2>
+                    </cat2>
+                    <cat3>
+                        <note3>
+                            
+                        </note3>
+                    </cat3>
+                    <cat4>
+                        <note4>
+                            
+                        </note4>
+                    </cat4>
+                    <cat5>
+                        <note5>
+                            
+                        </note5>
+                    </cat5>
+                </joueur4>
+                <joueur5>
+                    <cat1>
+                        <note1>
+                        
+                        </note1>
+                    </cat1>
+                    <cat2>
+                        <note2>
+                        
+                        </note2>
+                    </cat2>
+                    <cat3>
+                        <note3>
+                        
+                        </note3>
+                    </cat3>
+                    <cat4>
+                        <note4>
+                        
+                        </note4>
+                    </cat4>
+                    <cat5>
+                        <note5>
+                        
+                        </note5>
+                    </cat5>
+                </joueur5>
+            </equipe2>
+        </equipe>
+    </categorie1>
+</tournoi>
