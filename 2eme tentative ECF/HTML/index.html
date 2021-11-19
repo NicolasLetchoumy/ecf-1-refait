@@ -12,10 +12,10 @@
 
         <div class="hautDePage">
             <h1>Tournoi de la KOGGANG</h1>
-            <form action="" method="" class="formHeader">
+            <form  method="GET" class="formHeader">
                 <input type="text" id="identifiant" name="identifiant" placeholder="identifiant" value="" required><br>
                 <input type="password" id="mdp" name="mdp" placeholder="mot de passe" value="" required>
-                <input type="submit" name="valider" value="valider">
+                <input type="submit" name="valider" id="valider" value="valider">
             </form>
         </div>
         <div class="menu">
@@ -33,11 +33,11 @@
             <div class="listeParticipants">
                 <h5 class="titre2">liste des participants</h5>
                 <ul>
-                    <a href=""><li>- équipe1</li></a>
-                    <a href=""><li>- équipe2</li></a>
-                    <a href=""><li>- équipe3</li></a>
-                    <a href=""><li>- équipe4</li></a>
-                    <a href=""><li>- équipe5</li></a>
+                    <li><button class="no_style" id="equipe1">équipe1</button></li>
+                    <li><button class="no_style" id="equipe2">équipe2</button></li>
+                    <li><button class="no_style" id="equipe3">équipe3</button></li>
+                    <li><button class="no_style" id="equipe4">équipe4</button></li>
+                    <li><button class="no_style" id="equipe5">équipe5</button></li>
                 </ul>
             </div>
             <div class="reglement">
@@ -76,6 +76,8 @@
             <img src="../CSS/image/insta.jpg" alt="">
             <img src="../CSS/image/twitter.png" alt="">
         </div>
-    </footer>   
+    </footer>  
+    <script src="../JS/buttonEquipe.js"></script>
+    <script src="../JS/formulaire.js"></script> 
 </body>
 </html>

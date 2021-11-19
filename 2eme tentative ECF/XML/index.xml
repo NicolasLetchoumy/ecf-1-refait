@@ -2,7 +2,7 @@
 <tournoi>
     <categorie1>
         <equipe>
-            <equipe1>
+            <nomEquipe>
                     <joueur1>
                         <cat1>
                             <note1>
@@ -138,8 +138,8 @@
                         </note5>
                     </cat5>
                 </joueur5>
-            </equipe1>
-            <equipe2>
+            </nomEquipe>
+            <nomEquipe>
                 <joueur1>
                     <cat1>
                         <note1>
@@ -275,7 +275,7 @@
                         </note5>
                     </cat5>
                 </joueur5>
-            </equipe2>
+            </nomEquipe>
         </equipe>
     </categorie1>
 </tournoi>

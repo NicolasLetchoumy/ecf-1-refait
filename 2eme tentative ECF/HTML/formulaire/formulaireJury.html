@@ -12,10 +12,10 @@
 
         <div class="hautDePage">
             <h1>Tournoi de la KOGGANG</h1>
-            <form action="" method="" class="formHeader">
+            <form  method="GET" class="formHeader">
                 <input type="text" id="identifiant" name="identifiant" placeholder="identifiant" value="" required><br>
                 <input type="password" id="mdp" name="mdp" placeholder="mot de passe" value="" required>
-                <input type="submit" name="valider" value="valider">
+                <input type="submit" name="valider" id="valider" value="valider">
             </form>
         </div>
         <div class="menu">
@@ -27,7 +27,7 @@
         </div>
 </header>
     <main>
-        <form action="" method="" class="formJury">
+        <form  method="GET" class="formJury">
             <fieldset>
                  <legend>formulaire d'inscription Jury</legend>
                  <div class="">
@@ -38,7 +38,7 @@
                  </div>
                 <textarea name="présentationEquipe" id="présentationEquipe" cols="30" rows="10" required>présentez vous</textarea>
                     <div class="ciParticipant2">
-                        <label for="ci1"> upload votre carte d'identité </label>
+                        <label for="ciJury"> upload votre carte d'identité </label>
                         <input type="file" id="ciJury" name="ciJury" required>
                      </div>
                 <input type="submit" name="submit" id="submit" value="validé">
@@ -51,6 +51,7 @@
             <img src="../../CSS/image/insta.jpg" alt="">
             <img src="../../CSS/image/twitter.png" alt="">
         </div>
-    </footer>   
+    </footer> 
+    <script src="../../JS/formulaire.js"></script>  
 </body>
 </html>
