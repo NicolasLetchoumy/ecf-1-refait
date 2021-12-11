@@ -1,0 +1,685 @@
+.resultat{
+    color: white;
+}
+
+
+/* principaux décoration */
+body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    
+}
+
+main{
+    width: 100%;
+    height: 80%;
+}
+
+#content{
+    opacity: 0.3;
+}
+
+.hautDePage{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border: solid white 1px;
+    width: 100%;
+    height: 5%;
+    margin-left: 0%;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    border: solid white 1px;
+    margin: 1%;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, rebeccapurple, rgba(255,0,0,1));
+}
+
+.icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    border:  solid white 1px;
+    width: 100%;
+    height: 70%;
+    margin: 0px;
+    background-color: red;
+}
+
+
+.mainIndex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;  
+    margin: 2%;
+}
+
+
+.reglement{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    border: solid white 1px;
+    width: 30%; 
+}
+
+.categorie{
+    width: 100%;
+    border: solid white 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logoEquipe ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logoJoueur{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.bordureflex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5%;
+}
+
+.boiteInscription{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+    box-shadow: 2px 2px 4px 4px red;
+    width: 30%;
+    height: 200px;
+}
+
+.encadrement{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+    box-shadow: 2px 2px 4px 4px red;
+    width: 80%;
+    height: 600px;
+    margin: 2%;
+}
+
+.choixInscription{
+   margin-left: 20%;
+}
+
+.boiteHistorique, .boiteHistorique2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.facebook, .insta, .twitter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 300px;
+    border: solid white 1px;
+    margin: 5%;
+}
+
+.logoCoach{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 15%;
+    margin-bottom: 2%;
+}
+
+/*  détail */
+.hautDePage h1{
+    color: rgb(124, 11, 238);
+    
+}
+
+.formHeader{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu a, .categorie a{
+    text-decoration: none;
+    margin: 2%;
+    color: white;
+}
+
+.icon img{
+    width: 10%;
+    height: 5%;
+    margin: 0px;
+}
+
+.logoEquipe img{
+    width: 50%;
+    margin: 2%;
+}
+
+.imgCoach4{
+    margin-right: 8%;
+}
+
+.logoEquipe span{
+    margin-left: 15%;
+}
+
+.facebook div, .insta div, .twitter div{
+    background-color: blue;
+    width: 100%;
+    height: 130px;
+    margin: 2%;
+}
+
+.facebook span, .insta span, .twitter span{
+    color: white;
+}
+
+.formEquipe, .formJury{
+    width: 50%;
+    color: white;
+    margin-left: 25%;
+}
+
+.formNom{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.formNom input, #adresseJury, #cpJury{
+    width: 80%;
+    margin: 2%;
+}
+
+#prenomJury, #nomJury{
+    width: 45%;
+    text-align: center;
+}
+
+.ciParticipant{
+   display: flex;
+   flex-direction: column;
+}
+
+.ciParticipant input{
+    margin: 2%;
+}
+.ciParticipant2{
+    position: absolute;
+    top: 45%;
+    left: 48%;
+} 
+
+.test2{
+   position: absolute;
+   bottom: 18%;
+   left: 53%;
+}
+
+#submit{
+    margin-left: 8%;
+}
+
+.formConnection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formConnection input{
+    width: 70%;
+    margin: 2%;
+}
+
+/* décoration répétitif */
+
+.listeParticipants, .listeJury{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    border: solid white 1px;
+    width: 10%;
+}
+.titre, .listeParticipants ul li, .listeJury ul li, .titre2 {
+    text-align: center;
+    color: white;
+}
+
+
+
+.formHeader, #identifiant, #mdp{
+    margin: 1%;
+    width: 40%;
+    height: 5%;
+}
+
+.titre2, .reglement p{
+    color: white;
+}
+.listeParticipants ul li, .listeJury ul li{
+    list-style-type: none;
+    margin: 1%;
+}
+
+.jEquipe1 ul, .jEquipe2 ul, .jEquipe3 ul, .jEquipe4 ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.jEquipe1 ul li, .jEquipe2 ul li, .jEquipe3 ul li, .jEquipe4 ul li{
+    margin: 2%;
+}
+
+.jEquipe1 span, .jEquipe2 span, .jEquipe3 span, .jEquipe4 span{
+    color: white;
+}
+
+.jEquipe1 img, .jEquipe2 img, .jEquipe3 img, .jEquipe4 img{
+    width: 100%;
+    height: 110px;
+}
+
+.logoCoach img{
+    width: 5%;
+}
+.gagnant1, .gagnant2, .gagnant3, .gagnant4, .gagnant5, .gagnant6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+}
+
+.gagnant1 a, .gagnant2 a, .gagnant3 a, .gagnant4 a, .gagnant5 a, .gagnant6 a{
+    color: red;
+}
+.gagnant1 span, .gagnant2 span, .gagnant3 span, .gagnant4 span, .gagnant5 span, .gagnant6 span{
+    color: white;
+}
+
+.gagnant1 img, .gagnant2 img, .gagnant3 img, .gagnant4 img, .gagnant5 img, .gagnant6 img{
+    width: 100%;
+}
+
+.milieuGagnant{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 60%;
+    margin-left: 35%;
+
+}
+
+.gagnantJoueur1, .gagnantJoueur2, .gagnantJoueur3, .gagnantJoueur4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1%;
+}
+
+.gagnantJoueur1 h3, .gagnantJoueur2 h3, .gagnantJoueur3 h3, .gagnantJoueur4 h3, .gagnantJoueur1 p, .gagnantJoueur2 p, .gagnantJoueur3 p, .gagnantJoueur4 p, 
+.gagnantLogo span, .gagnantCoach h5, .boutique h1, .val_nom span, .resume span{
+    color: white;
+}
+
+.gagnantLogo span{
+    margin-left: 25%;
+}
+
+.gagnantJoueur1 img, .gagnantJoueur2 img, .gagnantJoueur3 img, .gagnantJoueur4 img{
+    width: 70%;
+    height: 250px;
+}
+
+.gagnantLogo{
+    position: absolute;
+    top: 25%;
+    left: 8%;
+}
+
+.gagnantLogo img{
+    width: 80%;
+}
+
+.gagnantCoach{
+    position: absolute;
+    top: 50%;
+}
+
+.gagnantCoach img{
+    width: 100%;
+    position: absolute;
+    top: 12%;
+    left: 160%;
+    
+}
+
+.boutique{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.boutique a{
+    color: red;
+    font-size: 40px;
+    margin: 2%;
+}
+/* hover */
+
+.menu a:hover{
+    color: yellow;
+}
+
+.categorie a:hover{
+    color: red;
+}
+
+/* modo */
+
+.classement{
+    width: 20%;
+    height: 400px;
+    border: solid white 2px;
+    padding: 2%;
+    position: absolute;
+    left: 0%;
+    top: 25%;
+}
+
+.Mid, .calendrier{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.Mid img{
+    width: 20%;
+}
+
+.titre2{
+    text-align: center;
+}
+
+.photoJ, .match{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.photoJ img{
+    width: 8%;
+    margin: 2%;
+}
+.photoJ span, .match span, .coachJ span{
+    font-size: 20px;
+    color: white;
+}
+
+.calendrier{
+    border: solid white 2px ;
+}
+
+.match img{
+    width: 30%;
+    margin: 2%;
+}
+
+.coachJ img{
+    width: 30%;
+}
+
+.coachJ{
+    position: absolute;
+    right: 10%;
+    top: 30%;
+}
+
+.classement2{
+    width: 10%;
+    height: 400px;
+    border: solid white 2px;
+    padding: 2%;
+
+}
+.coachP{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.prochainMatch{
+    width: 100%;
+    margin: 5%;
+    padding: 2%;
+}
+
+.prochainMatch img{
+    width: 40%;
+    margin: 2%;
+}
+
+.classement2 ul  {
+    margin-left: 0px;
+    width: 100%;
+}
+
+.classement2 ul li {
+    margin-left: 0px; 
+    width: 100%; 
+}
+
+.classement2 ul li a{
+    margin-right: 20%;
+    margin-left: 0px;
+    width: 100%;
+}
+
+.classement2 span, .classement2 a, .classement2 input{
+    color: white;
+    margin: 7%;
+}
+
+.co_cen, .val_nom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.co_cen img{
+    width: 20%;
+}
+
+.val_nom{
+
+    border: solid white 2px;
+    width: 50%;
+}
+
+.val_nom span{
+
+    font-size: 20px;
+    border: solid white 2px;
+}
+
+.resume{
+    border: solid white 2px;
+    padding: 5%;
+}
+
+.inp_c label{
+    color: white;
+}
+
+.row_cen{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.val_nom2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid white 2px;
+    width: 50%;
+}
+
+.val_nom2 span{
+    color: white;
+    font-size: 20px;
+    border: solid white 2px;
+}
+
+
+.resume2{
+    margin: 3%;
+    padding: 5%;
+    border: solid white 2px;
+}
+
+.resume2 span{
+    color: white;
+    font-size: 20px;
+    border: solid white 2px;
+}
+
+
+.noteJ1 span, .noteJ2 span, .row_cen span, .co_cen span, .co_cen p, .co_cen h3, .mar a{
+    color: white;
+} 
+
+.noteJ1, .noteJ2{
+    margin: 2%;
+}
+
+.val_nom3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid white 2px;
+    width: 30%;
+}
+
+.val_nom3 span{
+    color: white;
+    font-size: 20px;
+    border: solid white 2px;
+}
+
+
+.noteJoueur img{
+    width: 50%;
+}
+
+
+.decal{
+    margin-left: 25%;
+}
+
+
+
+/* léger modification boutton*/
+
+.no_style{
+    background-color: black;
+    text-decoration: none;
+    appearance: none;
+    color: white;
+}
+
+
+
+
+
+.popup{
+    background-color: white;
+    z-index: 5;
+    position: absolute;
+    font-size: 25px;
+    top: 20%;
+    right: 25%;
+    left: 25%;
+    padding: 10%;
+
+}
+
+.banis, .validerCondition{
+    background-color: black;
+    color: white;
+    border: solid red 1px;
+}
+
+.banis:hover, .validerCondition:hover{
+    background-color: blue;
+}
+
+
+.popupEquipe1, .popupEquipe2, .popupEquipe3, .popupEquipe4{
+    display: none;
+    position: absolute;
+    font-size: 25px;
+    top: 20%;
+    right: 25%;
+    left: 25%;
+    padding: 3%;
+    background-color: black;
+    color: white;
+    border: solid red 1px;
+}
+
+.cancel, .cancel2, .cancel3, .cancel4{
+    float: right;
+}
+
+
+.equipe1, .equipe2, .equipe3, .equipe4{
+    background-color: black;
+    border: none;
+}
+
+
+.bordure{
+
+    color: white;
+    margin-top: 10%;
+}

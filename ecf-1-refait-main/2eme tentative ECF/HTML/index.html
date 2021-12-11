@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>accueil</title>
+    <link rel="stylesheet" href="../CSS/index.css">
+</head>
+<body>
+    <header>
+
+        <div class="hautDePage">
+            <h1>Tournoi de la KOGGANG</h1>
+            <form  method="GET" class="formHeader">
+                <input type="text" id="identifiant" name="identifiant" placeholder="identifiant" value="" required><br>
+                <input type="password" id="mdp" name="mdp" placeholder="mot de passe" value="" required>
+                <input type="submit" name="valider" id="valider" value="valider">
+            </form>
+        </div>
+        <div class="menu">
+            <a href="index.html">accueil</a>
+            <a href="equipe.html">présentation d'équipe</a>
+            <a href="inscription.html">inscription</a>
+            <a href="historique.html">historique</a>
+            <a href="sociaux.html">réseaux sociaux</a>
+            <a href="resultat.html">résultat</a>
+
+        </div>
+        <!--SI LA PERSONNE N'ACCEPTE PAS LES CONDITIONS ELLE EST AUTOMATIQUEMENT BANIS DANS LA BDD -->
+        <div class="popup" id="popup">
+            <span>ceci est un tournoi de classe mondial la triche et le manque de respect sur n'importe quel plateforme sera sévérement jugé cordialement</span><br>
+            <button class="validerCondition" id="validerCondition">je valide les conditions</button>
+            <button class="banis" id="banis">je n'accpte pas les conditions</button>
+        </div>
+</header>
+    <main id="content">
+        <h3 class="titre">bienvenue au grand tournoi</h3>
+        <div class="mainIndex">
+
+            <div class="listeParticipants">
+                <h5 class="titre2">liste des participants</h5>
+                <ul>
+                    <li><button class="no_style" id="equipe1">équipe1</button></li>
+                    <li><button class="no_style" id="equipe2">équipe2</button></li>
+                    <li><button class="no_style" id="equipe3">équipe3</button></li>
+                    <li><button class="no_style" id="equipe4">équipe4</button></li>
+                    <li><button class="no_style" id="equipe5">équipe5</button></li>
+                </ul>
+            </div>
+            
+            <div class="reglement">
+               
+            </div>
+            <div class="listeJury">
+                <h5 class=titre2>liste jury</h5>
+                <ul>
+                    <li>- Jury1</li>
+                    <li>- jury2</li>
+                    <li>- jury3</li>
+                    <li>- jury4</li>
+                    <li>- jury5</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="icon">
+            <img src="../css/image/fb.png" alt="">
+            <img src="../CSS/image/insta.jpg" alt="">
+            <img src="../CSS/image/twitter.png" alt="">
+        </div>
+    </footer>  
+    <script src="../JS/incorporation.js"></script>
+    <script src="../JS/popup.js"></script>
+    <script src="../JS/buttonEquipe.js"></script>
+    <script src="../JS/formulaire.js"></script> 
+</body>
+</html>

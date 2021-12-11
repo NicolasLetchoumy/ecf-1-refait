@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page connection</title>
+    <link rel="stylesheet" href="../../CSS/index.css">
+</head>
+<body>
+    <header>
+
+        <div class="hautDePage">
+            <h1>Tournoi de la KOGGANG</h1>
+            <form  method="GET" class="formHeader">
+                <input type="text" id="identifiant" name="identifiant" placeholder="identifiant" value="" required><br>
+                <input type="password" id="mdp" name="mdp" placeholder="mot de passe" value="" required>
+                <input type="submit" name="valider" id="valider" value="valider">
+            </form>
+        </div>
+        <div class="menu">
+            <a href="../index.html">accueil</a>
+            <a href="../equipe.html">présentation d'équipe</a>
+            <a href="../inscription.html">inscription</a>
+            <a href="../historique.html">historique</a>
+            <a href="../sociaux.html">réseaux sociaux</a>
+            <a href="../resultat.html">résultat</a>
+
+        </div>
+</header>
+    <main>
+        <!--abandon de la mise en page du formulaire explication a la ligne 1 CSS,  on passe a la suite -->
+        <div class="bordureflex">
+            <div class="encadrement">
+                <h3>inscription</h3>
+                <form method="" class="formConection">
+                    <label for="identifiant2">identifiant</label>
+                    <input type="text" name="identifiant2" id="identifiant2" value="" placeholder="entrez votre identifinat" required><br>
+                    <label for="mdp2"> mot de passe actuel</label>
+                    <input type="password" name="mdp2" id="mdp2" value="" placeholder="entrez votre mot de passe actuel" required><br>
+                    <label for="newMdp"> nouveau mot de passe</label>
+                    <input type="password" name="newMdp" id="newMdp" value="" placeholder="entrez un nouveau mot de passe" required><br>
+                    <label for="confirmeMdp"> confirmer votre mot de passe</label>
+                    <input type="password" name="confirmeMdp" id="confirmeMdp" value="" placeholder="confirmer votre mot de passe" required><br>
+                    <span>condition de mot de passe</span><br>
+                    <span>au moins 10 caractère</span><br>
+                    <span>au moins 1 lettre majuscule</span><br>
+                    <span>au moins 1 lettre minuscule</span><br>
+                    <span>au moins 1 chiffre</span><br>
+                    <input type="submit" name="submit2" id="submit2" value="valider">
+                </form>
+      <!--REDIRECTION VERS LES ESPACE POUR EVITER QUE TU PIOCHE DANS LE FICHIER ALEXIS-->
+                <button id="espaceAdmin">espace admin</button>
+                <button id="espaceEquipe">espace equipe</button>
+                <button id="espaceJury">espace jury</button>
+             </div>
+        </div>
+    </main>
+    <footer>
+        <div class="icon">
+            <img src="../../css/image/fb.png" alt="">
+            <img src="../../CSS/image/insta.jpg" alt="">
+            <img src="../../CSS/image/twitter.png" alt="">
+        </div>
+    </footer>   
+    <script src="../../JS/connection.js"></script>
+    <script src="../../JS/redirection.js"></script>
+
+</body>
+</html>

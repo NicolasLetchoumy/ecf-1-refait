@@ -1,0 +1,36 @@
+
+
+#compte_a_rebours {
+  font-family: Arial;
+  background-image: url(http://operation.toutfaire.fr/logo.png);
+  background-repeat: no-repeat;
+  background-position: 5px 5px;
+  background-color: #ffdb00;
+  color: black;
+  text-align: center;
+  width: 660px;
+  margin: auto;
+  padding: 20px;
+}
+
+.prefixe {
+  font-weight: bold;
+}
+
+.block, .nb {
+  display: inline-block;
+}
+
+.block {
+  width: 164px;
+  border-right: solid 1px black;
+}
+
+.block:nth-child(6) {
+  border-right: solid 1px #ffdb00;
+}
+
+.nb {
+  font-size: 5em;
+  font-weight: bold;
+}
